@@ -1,0 +1,6 @@
+- name : "Configuring web server in ec2 instances"
+  hosts : all
+  roles :
+        - webserver 
+  tags : webserver
+   
